@@ -42,8 +42,9 @@ def main():
     render.render("temp_clips", "main_clip.mp4", "output.mp4", config.video["dimensions"])
 
     # Upload the video to YouTube
-    config.youtube["title"] = vid["title"] + " #shorts"
-    config.youtube["description"] = "Video by: " + vid["author"]
+    config.youtube["title"] = vid["title"] + " | #shorts"
+    config.youtube["description"] = "#shorts"
+    # config.youtube["description"] = "Video by: " + vid["author"]
     uploaded = upload.upload("temp_clips/output.mp4", config.youtube)
 
     # Update the database with the uploaded video's URL
