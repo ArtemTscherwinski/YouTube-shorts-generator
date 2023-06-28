@@ -1,4 +1,4 @@
-subreddit = "funny" # exclude 'r/', you can combine multiple subreddits with '+'. Ex: "funny+cars"
+subreddit = "AndrewTateUncensored" # exclude 'r/', you can combine multiple subreddits with '+'. Ex: "funny+cars"
 database = 'database.txt' # local text database file that ensures no duplicate videos get processed.
 
 # Additional setup information for authenticating with the Reddit API can be found in the Reddit API documentation.
@@ -6,16 +6,16 @@ database = 'database.txt' # local text database file that ensures no duplicate v
 
 # Using this config file alone should be able to get you going without further modification.
 reddit_login = {
-	'client_id': '',
-	'client_secret': '',
-	'password': '',
-	'user_agent': '',
-	'username': ''
+	'client_id': 'uftvbk3sGh8uJT6Wfku3JA',
+	'client_secret': 'XZbrPnPlGTau9dsClutu5bqwqheeKA',
+	'password': '!Coz3tety',
+	'user_agent': 'yt-shorts',
+	'username': 'qwerasdfyxcv12341234'
 }
 
 
 youtube = {
-	'tags': '',
+	'tags': '#shorts',
 	'category': 23,  # has to be an int, more about category below
 	'status': 'public'  # {public, private, unlisted}
 }
